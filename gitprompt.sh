@@ -29,7 +29,7 @@ function get_theme() {
   if [[ ! (-z ${GIT_PROMPT_THEME_FILE} ) ]]; then
     CUSTOM_THEME_FILE=$GIT_PROMPT_THEME_FILE
   fi
-  local DEFAULT_THEME_FILE="${__GIT_PROMPT_DIR}/themes/Default.bgptheme"
+  local DEFAULT_THEME_FILE="${__GIT_PROMPT_DIR}/themes/Sebi.bgptheme"
 
   if [[ -z ${GIT_PROMPT_THEME} ]]; then
     if [[ -r $CUSTOM_THEME_FILE ]]; then
